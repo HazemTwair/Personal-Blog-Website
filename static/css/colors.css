@@ -1,0 +1,16 @@
+/* Colors variables */
+:root {
+  --color-white: #fff;
+  --color-black: #000;
+  --color-grey: #595959;
+  --color-blue: #15a;
+
+  --color-primary: var(--color-blue);
+  --color-secondary: var(--color-black);
+  --color-tertiary: var(--color-grey);
+
+  --color-bg-quote: antiquewhite;
+  --color-border-quote: salmon;
+
+  --color-bg-author: #ecebff;
+}

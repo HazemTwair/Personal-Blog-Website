@@ -1,0 +1,10 @@
+/* Spaces variables */
+:root {
+  --space-xs: 5px;
+  --space-s: 10px;
+  --space-m: 15px;
+  --space-ml: 20px;
+  --space-l: 25px;
+  --space-xl: 40px;
+  --space-xxl: 70px;
+}

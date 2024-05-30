@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Photography</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link href="static/css/style.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/44fdb2d78a.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="logo">Photography</a>
+      <nav>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="#">Design</a></li>
+          <li><a href="#">Explore</a></li>
+          <li><a href="#">Style</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <div class="hamburger">
+          <div class="hamburger-icon"></div>
+          <div class="hamburger-icon"></div>
+          <div class="hamburger-icon"></div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="blog-hero-image-wrapper">
+        <div class="blog-hero-image">
+          <img src="static/images/panorama.jpg" alt="hero-image" width="100%" />
+        </div>
+        <h2>Photography Blog</h2>
+      </section>
+      <section class="main-content">
+        <div class="posts">
+          <div class="blog-card">
+            <div class="blog-card-image">
+              <img src="static/images/camera.jpeg" alt="camera" />
+            </div>
+            <div class="blog-card-desc">
+              <p>by Mollis Eleifend | October 2019</p>
+              <h2>The Best Cameras to Have</h2>
+              <p>
+                Aliquam mauris sapien, mollis nec suscipit tristique, finibus in
+                eros. Duis ac felis sit amet arcu congue ultrices. Suspendisse
+                porta semper urna.
+              </p>
+            </div>
+            <div class="blog-btn">
+              <a href="/blog-post.html">Read the blog</a>
+            </div>
+          </div>
+          <div class="blog-card">
+            <div class="blog-card-image">
+              <img src="static/images/lighting.jpeg" alt="Studio Lighting" />
+            </div>
+            <div class="blog-card-desc">
+              <p>by Ullamcorper | April 2021</p>
+              <h2>Studio Lighting for Photography</h2>
+              <p>
+                Duis id nisl ut quam iaculis tincidunt at non nulla. Proin
+                ultricies blandit accumsan. Curabitur ullamcorper nunc et erat
+                egestas, consequat.
+              </p>
+            </div>
+            <div class="blog-btn">
+              <a href="/blog-post.html">Read the blog</a>
+            </div>
+          </div>
+          <div class="blog-card">
+            <div class="blog-card-image">
+              <img src="static/images/AI.jpg" alt="AI photo" />
+            </div>
+            <div class="blog-card-desc">
+              <p>by Consectetur | June 2023</p>
+              <h2>AI in Photography</h2>
+              <p>
+                Praesent pretium eu lorem vitae scelerisque. Nulla a venenatis
+                est. Suspendisse turpis nunc, elementum sit amet viverra et,
+                faucibus at dolor.
+              </p>
+            </div>
+            <div class="blog-btn">
+              <a href="/blog-post.html">Read the blog</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="featured-posts-wrapper">
+          <h1>Featured Posts</h1>
+          <div class="posts">
+            <div class="blog-card">
+              <div class="blog-card-image">
+                <img src="static/images/jobs.jpeg" alt="jobs" />
+              </div>
+              <div class="blog-card-desc">
+                <h2>Photography Jobs</h2>
+              </div>
+            </div>
+            <div class="blog-card">
+              <div class="blog-card-image">
+                <img src="static/images/lenses.jpeg" alt="lenses" />
+              </div>
+              <div class="blog-card-desc">
+                <h2>Best Lenses</h2>
+              </div>
+            </div>
+            <div class="blog-card">
+              <div class="blog-card-image">
+                <img src="static/images/street.jpeg" alt="Street" />
+              </div>
+              <div class="blog-card-desc">
+                <h2>Street Photography</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>&copy; Copyright 2024 by Hazem Twair</div>
+    </footer>
+
+    <script>
+      const hamburger = document.querySelector(".hamburger");
+      const navUL = document.querySelector("nav ul");
+
+      hamburger.addEventListener("click", () => {
+        navUL.classList.toggle("show");
+      });
+    </script>
+  </body>
+</html>
